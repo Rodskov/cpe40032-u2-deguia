@@ -16,11 +16,13 @@ public class DestroyOutOfBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Removes game object when out of camera perspective
         if (transform.position.z > topBoundary)
         {
             Destroy(gameObject);
         } else if (transform.position.z < lowerBoundary)
         {
+            Debug.Log("Game Over!");
             Destroy(gameObject);
         }
     }

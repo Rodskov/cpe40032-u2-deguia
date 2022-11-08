@@ -951,6 +951,8 @@ GameObject:
   - component: {fileID: 8930737392902395071}
   - component: {fileID: 8930737391769338901}
   - component: {fileID: 2497691151429514012}
+  - component: {fileID: 8919888657758273715}
+  - component: {fileID: 8995001890838906799}
   m_Layer: 0
   m_Name: SimpleFarmer_Man_01_Brown
   m_TagString: Untagged
@@ -1008,7 +1010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe4cc8532605264dab19ef94172f872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
 --- !u!114 &2497691151429514012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,6 +1021,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecb56664e706898448750d13996b748e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8919888657758273715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930737392909789055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5580196, y: 3.052947, z: 1}
+  m_Center: {x: 0.050131798, y: 1.5926423, z: 0}
+--- !u!114 &8995001890838906799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930737392909789055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3297312fd4195f4428a9ce41b47d5a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8930737392909789869
